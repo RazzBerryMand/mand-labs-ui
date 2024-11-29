@@ -1,5 +1,4 @@
 name: 'Chromatic'
-
 on: push
 
 jobs:
@@ -16,3 +15,4 @@ jobs:
       - uses: chromaui/action@v1
         with:
           projectToken: chpt_070380bdb79aa5b
+           token: ${{ secrets.GITHUB_TOKEN }}
