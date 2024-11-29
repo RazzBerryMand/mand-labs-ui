@@ -5,7 +5,6 @@ import * as global from './shared/global';
 
 export { styles, animation, icons, global };
 
-export * from './Avatar';
 export * from './Badge';
 export * from './Button';
 export * from './Icon';
